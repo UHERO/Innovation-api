@@ -1,0 +1,24 @@
+{
+  "name": "uhero-api",
+  "version": "1.0.0",
+  "description": "UHERO API to serve data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devleague/uhero-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/uhero-api/issues"
+  },
+  "homepage": "https://github.com/devleague/uhero-api",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2",
+    "mongoose": "^3.8.25"
+  }
+}
