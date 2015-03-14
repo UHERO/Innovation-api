@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html id="htmlDocumentControl" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="ROBOTS" content="NOINDEX" /><title>
+	Export
+</title><base id="baselink" href="http://nces.ed.gov/nationsreportcard/statecomparisons/"></base>
+    <style type="text/css">
+        .SCTable
+        {
+        	font-size:11px;
+        	font-family:Verdana;
+        	color:#000000;
+        	background-color:#FFFFFF;
+        	text-align:center;
+        	vertical-align:bottom;
+        	padding-left:3px;
+        	padding-right:3px;
+        	padding-bottom:3px;
+        	padding-top:3px;
+        	border-left:solid 1px #c6DDDF;
+        	border-right:solid 1px #c6DDDF;
+        	border-bottom: solid 1px #c6DDDF;
+        }
+        th, TH, .nosort
+        {
+        	font-size:11px; 
+            font-family:Verdana; 
+            font-weight:normal; 
+            background:#e3f0fc;
+            border-bottom:solid 1px #c6dddf; 
+            border-top:solid 1px #c6dddf; 
+            border-left:solid 1px #c6dddf; 
+            border-right:solid 1px #c6dddf;
+        }
+        .exporttitle
+        {
+        	font-family:Verdana;
+        	font-size: 14px;
+        }
+        .ReportHeaderMain
+        {
+        	font-size:16pt; 
+        	font-family:Impact; 
+        	font-weight:bold;
+        }
+        .ReportHeaderSub 
+        {
+        	font-family:Arial;
+        	font-size:12pt;
+        	font-weight:bold;
+        }
+        .ReportHeaderSource
+        {
+        	font-family:Arial;
+        	font-size:10pt;
+        	font-weight:bold;
+        }
+        .ReportDisclaimer
+        {
+        	font-family:Arial;
+        	font-size:7.5pt;
+        }
+        .hover td 
+        {
+        	background-color:#FFFFCC;
+        }
+        .sortedminus
+        {
+        	font-style:normal;
+        	font-size:11px;
+        	font-family:Verdana;
+        	color:#000000;
+        	text-align:left;
+        	vertical-align:bottom;
+            background-color:#e3f0fc;
+        }
+        .sortedplus 
+        {
+        	font-style:normal;
+        	font-size:11px;
+        	font-family:Verdana;
+        	color:#000000;
+        	text-align:left;
+        	vertical-align:bottom;
+            background-color:#e3f0fc;
+        }
+        .selrow td 
+        {
+        	background-color:#91B8D8;
+        }
+        .cl 
+        {
+        	font-family:Verdana;
+        	font-style:normal;
+        	font-size:11px;
+        	color:#000000;
+        	background-color:#FFFFFF;
+        	vertical-align:bottom;
+        	text-align:left;
+        	border-bottom:solid 1px #C6DDDF;
+        	padding-left: 5px;
+        	padding-right: 3px;
+        }
+        .cr 
+        {
+        	font-style:normal;
+        	font-size:11px;
+        	font-family:Verdana;
+        	color:#000000;
+        	background-color:#FFFFFF;
+        	vertical-align:bottom;
+        	text-align:right;
+        	border-bottom:solid 1px #C6DDDF;
+        	padding-left:3px;
+        	padding-right:5px;
+        }
+        .ceq 
+        {
+        	border-bottom:solid 1px #C6DDDF;
+        	border-right:1px solid #C6DDDF;
+        	border-left:1px solid #C6DDDF;
+        	text-align:center;
+        	font-weight:bold;
+        	background-color:#ffffcc;
+        	color:black
+        }
+        .cgt 
+        {
+        	border-bottom:solid 1px #C6DDDF;
+        	border-right:1px solid #C6DDDF;
+        	border-left:1px solid #C6DDDF;
+        	text-align:center;
+        	font-weight:bold;
+        	background-color:#ccffcc;
+        	color:green
+        }
+        .clt 
+        {
+        	border-bottom:solid 1px #C6DDDF;
+        	border-right:1px solid #C6DDDF;
+        	border-left:1px solid #C6DDDF;
+        	text-align:center;
+        	font-weight:bold;
+        	background-color:#ffc0cb;
+        	color:red
+        }
+        caption
+        {
+        	caption-side:top;
+        	text-align:left;
+        	padding-left:5px;
+        	padding-bottom:3px;
+        }
+        .SCFtrCls
+        {
+        	color:#000000;
+        	font-family:Verdana;
+        	font-weight:normal;
+        	font-size:9px;
+        	line-height:14px;
+        	text-decoration:none;
+        	padding:5px 5px 5px 5px;
+        	text-align:left;
+        }
+    </style>
+</head>
+
+<body onload="focus()">
+    <div id="ReportHeader"><div class="ReportHeaderMain">National Center for Education Statistics (NCES)</div><div class="ReportHeaderSub">Institute of Education Sciences (IES)</div><div class="ReportHeaderSub">National Assessment of Educational Progress (NAEP)</div><div class="ReportHeaderSource">This report was generated using the NAEP State Comparisons Tool.<a href="http://nces.ed.gov/nationsreportcard/statecomparisons/">http://nces.ed.gov/nationsreportcard/statecomparisons/</a></div><br /></div><table id="ctl00_cphNCES_resultsTable" cellspacing="0" cellpadding="2" class="SCTable" border="0" style="width:900px;border-collapse:collapse;">
+	<caption>Average Mathematics scale score sorted by all students, grade 8 public schools: By jurisdiction</caption><thead>
+		<tr>
+			<th align="center" valign="bottom" id="Col0" class="nosort" colspan="1" rowspan="3">Order</th><th align="center" valign="bottom" id="Col1" class="sortedplus" colspan="1" rowspan="3" >Jurisdiction</th><th align="center" valign="bottom" id="Col2" class="nosort" colspan="1" rowspan="3">Cross-state<br>significant<br>difference</th><th align="center" valign="bottom" class="nosort" colspan="3">Number of Jurisdictions<br>Significantly</th><th align="center" valign="top" class="nosort" colspan="1"><br>All students</th><th align="center" valign="top" class="nosort" colspan="1"><br>75th percentile</th><th align="center" valign="top" class="nosort" colspan="1"><br>25th percentile</th><th align="center" valign="top" class="nosort" colspan="1"><br>75th percentile - 25th percentile<br> difference</th>
+		</tr><tr>
+			<th align="center" valign="bottom" class="nosort" id="Col3" rowspan="2">higher</th><th align="center" valign="bottom" class="nosort" id="Col4" rowspan="2">not<br>different</th><th align="center" valign="bottom" class="nosort" id="Col5" rowspan="2">lower</th><th align="center" valign="bottom" class="nosort">2005</th><th align="center" valign="bottom" class="nosort">2005</th><th align="center" valign="bottom" class="nosort">2005</th><th align="center" valign="bottom" class="nosort">2005</th>
+		</tr><tr>
+			<th align="center" valign="bottom" id="Col6" >Scale Score</th><th align="center" valign="bottom" id="Col7" >Scale Score</th><th align="center" valign="bottom" id="Col8" >Scale Score</th><th align="center" valign="bottom" id="Col9" >Scale Score</th>
+		</tr>
+	</thead><tbody><tr id="Row1" class="selrow" >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">National public</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="277.519684495209" >278</td><td class="cr" axis="number" headers="Col7" x:num="302.602001953125" >303</td><td class="cr" axis="number" headers="Col8" x:num="254.048001098633" >254</td><td class="cr" axis="number" headers="Col9" x:num="48.554000854492" >49</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Alabama</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="262.211100048323" >262</td><td class="cr" axis="number" headers="Col7" x:num="287.430004882813" >287</td><td class="cr" axis="number" headers="Col8" x:num="239.516000366211" >240</td><td class="cr" axis="number" headers="Col9" x:num="47.914004516602" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Alaska</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="278.958709394219" >279</td><td class="cr" axis="number" headers="Col7" x:num="303.020001220703" >303</td><td class="cr" axis="number" headers="Col8" x:num="255.596002197266" >256</td><td class="cr" axis="number" headers="Col9" x:num="47.423999023437" >47</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Arizona</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="274.305090048274" >274</td><td class="cr" axis="number" headers="Col7" x:num="299.839996337891" >300</td><td class="cr" axis="number" headers="Col8" x:num="250.164001464844" >250</td><td class="cr" axis="number" headers="Col9" x:num="49.675994873047" >50</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Arkansas</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="271.636348366415" >272</td><td class="cr" axis="number" headers="Col7" x:num="295.901995849609" >296</td><td class="cr" axis="number" headers="Col8" x:num="250.483996582031" >250</td><td class="cr" axis="number" headers="Col9" x:num="45.417999267578" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">California</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="268.558128581435" >269</td><td class="cr" axis="number" headers="Col7" x:num="295.078002929688" >295</td><td class="cr" axis="number" headers="Col8" x:num="243.051998901367" >243</td><td class="cr" axis="number" headers="Col9" x:num="52.026004028321" >52</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Colorado</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="280.824007310133" >281</td><td class="cr" axis="number" headers="Col7" x:num="305.900006103516" >306</td><td class="cr" axis="number" headers="Col8" x:num="257.064001464844" >257</td><td class="cr" axis="number" headers="Col9" x:num="48.836004638672" >49</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Connecticut</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.068953005311" >281</td><td class="cr" axis="number" headers="Col7" x:num="308.873999023438" >309</td><td class="cr" axis="number" headers="Col8" x:num="255.621997070313" >256</td><td class="cr" axis="number" headers="Col9" x:num="53.252001953125" >53</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Delaware</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="280.95354283122" >281</td><td class="cr" axis="number" headers="Col7" x:num="303.707995605469" >304</td><td class="cr" axis="number" headers="Col8" x:num="259.607995605469" >260</td><td class="cr" axis="number" headers="Col9" x:num="44.1" >44</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">District of Columbia</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="245.215780768922" >245</td><td class="cr" axis="number" headers="Col7" x:num="267.2" >267</td><td class="cr" axis="number" headers="Col8" x:num="221.70599975586" >222</td><td class="cr" axis="number" headers="Col9" x:num="45.49400024414" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">DoDEA</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="283.902342960277" >284</td><td class="cr" axis="number" headers="Col7" x:num="305.999993896484" >306</td><td class="cr" axis="number" headers="Col8" x:num="263.385998535156" >263</td><td class="cr" axis="number" headers="Col9" x:num="42.613995361328" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Florida</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="274.04837689748" >274</td><td class="cr" axis="number" headers="Col7" x:num="299.715997314453" >300</td><td class="cr" axis="number" headers="Col8" x:num="250.857995605469" >251</td><td class="cr" axis="number" headers="Col9" x:num="48.858001708984" >49</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Georgia</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="272.191564411022" >272</td><td class="cr" axis="number" headers="Col7" x:num="296.702001953125" >297</td><td class="cr" axis="number" headers="Col8" x:num="248.274002075195" >248</td><td class="cr" axis="number" headers="Col9" x:num="48.42799987793" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Hawaii</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="265.629319114115" >266</td><td class="cr" axis="number" headers="Col7" x:num="290.834008789062" >291</td><td class="cr" axis="number" headers="Col8" x:num="242.331997680664" >242</td><td class="cr" axis="number" headers="Col9" x:num="48.502011108398" >49</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Idaho</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="280.966896649599" >281</td><td class="cr" axis="number" headers="Col7" x:num="303.86000366211" >304</td><td class="cr" axis="number" headers="Col8" x:num="260.091998291016" >260</td><td class="cr" axis="number" headers="Col9" x:num="43.768005371094" >44</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Illinois</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="277.672238913307" >278</td><td class="cr" axis="number" headers="Col7" x:num="302.30599975586" >302</td><td class="cr" axis="number" headers="Col8" x:num="254.330001831055" >254</td><td class="cr" axis="number" headers="Col9" x:num="47.975997924805" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Indiana</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.714945536305" >282</td><td class="cr" axis="number" headers="Col7" x:num="303.865997314453" >304</td><td class="cr" axis="number" headers="Col8" x:num="260.903997802735" >261</td><td class="cr" axis="number" headers="Col9" x:num="42.961999511718" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Iowa</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="283.810928831672" >284</td><td class="cr" axis="number" headers="Col7" x:num="307.083996582031" >307</td><td class="cr" axis="number" headers="Col8" x:num="262.476000976562" >262</td><td class="cr" axis="number" headers="Col9" x:num="44.607995605469" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Kansas</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="284.030053484553" >284</td><td class="cr" axis="number" headers="Col7" x:num="306.771997070313" >307</td><td class="cr" axis="number" headers="Col8" x:num="263.852001953125" >264</td><td class="cr" axis="number" headers="Col9" x:num="42.919995117188" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Kentucky</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="273.983027164396" >274</td><td class="cr" axis="number" headers="Col7" x:num="296.538000488281" >297</td><td class="cr" axis="number" headers="Col8" x:num="252.087997436523" >252</td><td class="cr" axis="number" headers="Col9" x:num="44.450003051758" >44</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Louisiana</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="267.755030846034" >268</td><td class="cr" axis="number" headers="Col7" x:num="289.744006347656" >290</td><td class="cr" axis="number" headers="Col8" x:num="246.990002441406" >247</td><td class="cr" axis="number" headers="Col9" x:num="42.75400390625" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Maine</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.058540918142" >281</td><td class="cr" axis="number" headers="Col7" x:num="303.648004150391" >304</td><td class="cr" axis="number" headers="Col8" x:num="260.730004882812" >261</td><td class="cr" axis="number" headers="Col9" x:num="42.917999267579" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Maryland</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="277.930794576753" >278</td><td class="cr" axis="number" headers="Col7" x:num="304.073999023438" >304</td><td class="cr" axis="number" headers="Col8" x:num="252.103994750976" >252</td><td class="cr" axis="number" headers="Col9" x:num="51.970004272462" >52</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Massachusetts</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="291.5135411152" >292</td><td class="cr" axis="number" headers="Col7" x:num="316.494000244141" >316</td><td class="cr" axis="number" headers="Col8" x:num="268.314001464844" >268</td><td class="cr" axis="number" headers="Col9" x:num="48.179998779297" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Michigan</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="277.346681960374" >277</td><td class="cr" axis="number" headers="Col7" x:num="303.19599609375" >303</td><td class="cr" axis="number" headers="Col8" x:num="253.266000366211" >253</td><td class="cr" axis="number" headers="Col9" x:num="49.929995727539" >50</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Minnesota</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="290.074995791089" >290</td><td class="cr" axis="number" headers="Col7" x:num="315.603997802735" >316</td><td class="cr" axis="number" headers="Col8" x:num="267.497991943359" >267</td><td class="cr" axis="number" headers="Col9" x:num="48.106005859376" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Mississippi</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="262.456242710419" >262</td><td class="cr" axis="number" headers="Col7" x:num="285.122003173828" >285</td><td class="cr" axis="number" headers="Col8" x:num="240.548001098633" >241</td><td class="cr" axis="number" headers="Col9" x:num="44.574002075195" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Missouri</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="276.44993926095" >276</td><td class="cr" axis="number" headers="Col7" x:num="299.940008544922" >300</td><td class="cr" axis="number" headers="Col8" x:num="254.094000244141" >254</td><td class="cr" axis="number" headers="Col9" x:num="45.846008300781" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Montana</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="286.432001216413" >286</td><td class="cr" axis="number" headers="Col7" x:num="308.116003417969" >308</td><td class="cr" axis="number" headers="Col8" x:num="267.448004150391" >267</td><td class="cr" axis="number" headers="Col9" x:num="40.667999267578" >41</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Nebraska</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="283.9629910353" >284</td><td class="cr" axis="number" headers="Col7" x:num="307.952001953125" >308</td><td class="cr" axis="number" headers="Col8" x:num="261.976000976563" >262</td><td class="cr" axis="number" headers="Col9" x:num="45.976000976562" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Nevada</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="269.905585503685" >270</td><td class="cr" axis="number" headers="Col7" x:num="294.826000976562" >295</td><td class="cr" axis="number" headers="Col8" x:num="246.611999511719" >247</td><td class="cr" axis="number" headers="Col9" x:num="48.214001464843" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">New Hampshire</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="285.2533570362" >285</td><td class="cr" axis="number" headers="Col7" x:num="307.301995849609" >307</td><td class="cr" axis="number" headers="Col8" x:num="264.223999023437" >264</td><td class="cr" axis="number" headers="Col9" x:num="43.077996826172" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">New Jersey</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="283.902604236295" >284</td><td class="cr" axis="number" headers="Col7" x:num="310.088000488281" >310</td><td class="cr" axis="number" headers="Col8" x:num="260.841998291016" >261</td><td class="cr" axis="number" headers="Col9" x:num="49.246002197265" >49</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">New Mexico</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="263.275162986677" >263</td><td class="cr" axis="number" headers="Col7" x:num="286.047998046875" >286</td><td class="cr" axis="number" headers="Col8" x:num="241.925997924805" >242</td><td class="cr" axis="number" headers="Col9" x:num="44.12200012207" >44</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">New York</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="279.716253699868" >280</td><td class="cr" axis="number" headers="Col7" x:num="304.610003662109" >305</td><td class="cr" axis="number" headers="Col8" x:num="256.328002929688" >256</td><td class="cr" axis="number" headers="Col9" x:num="48.282000732421" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">North Carolina</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.825136586578" >282</td><td class="cr" axis="number" headers="Col7" x:num="305.944000244141" >306</td><td class="cr" axis="number" headers="Col8" x:num="258.816003417969" >259</td><td class="cr" axis="number" headers="Col9" x:num="47.127996826172" >47</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">North Dakota</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="286.960953441317" >287</td><td class="cr" axis="number" headers="Col7" x:num="306.724005126953" >307</td><td class="cr" axis="number" headers="Col8" x:num="268.038000488281" >268</td><td class="cr" axis="number" headers="Col9" x:num="38.686004638672" >39</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Ohio</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="283.251774708647" >283</td><td class="cr" axis="number" headers="Col7" x:num="306.431994628906" >306</td><td class="cr" axis="number" headers="Col8" x:num="261.161999511719" >261</td><td class="cr" axis="number" headers="Col9" x:num="45.269995117187" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Oklahoma</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="271.359902408679" >271</td><td class="cr" axis="number" headers="Col7" x:num="294.105999755859" >294</td><td class="cr" axis="number" headers="Col8" x:num="250.561999511719" >251</td><td class="cr" axis="number" headers="Col9" x:num="43.54400024414" >44</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Oregon</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="282.237325362273" >282</td><td class="cr" axis="number" headers="Col7" x:num="307.50400390625" >308</td><td class="cr" axis="number" headers="Col8" x:num="259.077996826172" >259</td><td class="cr" axis="number" headers="Col9" x:num="48.426007080078" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Pennsylvania</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="280.713835066326" >281</td><td class="cr" axis="number" headers="Col7" x:num="304.838000488281" >305</td><td class="cr" axis="number" headers="Col8" x:num="258.680004882813" >259</td><td class="cr" axis="number" headers="Col9" x:num="46.157995605468" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Rhode Island</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="272.345018074323" >272</td><td class="cr" axis="number" headers="Col7" x:num="297.25" >297</td><td class="cr" axis="number" headers="Col8" x:num="249.723999023437" >250</td><td class="cr" axis="number" headers="Col9" x:num="47.526000976563" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">South Carolina</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.23432113535" >281</td><td class="cr" axis="number" headers="Col7" x:num="304.05599975586" >304</td><td class="cr" axis="number" headers="Col8" x:num="258.184002685547" >258</td><td class="cr" axis="number" headers="Col9" x:num="45.871997070313" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">South Dakota</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="287.303617983357" >287</td><td class="cr" axis="number" headers="Col7" x:num="308.756005859375" >309</td><td class="cr" axis="number" headers="Col8" x:num="268.162005615234" >268</td><td class="cr" axis="number" headers="Col9" x:num="40.594000244141" >41</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Tennessee</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="270.524576784271" >271</td><td class="cr" axis="number" headers="Col7" x:num="293.821990966797" >294</td><td class="cr" axis="number" headers="Col8" x:num="247.668002319336" >248</td><td class="cr" axis="number" headers="Col9" x:num="46.153988647461" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Texas</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="281.102845047493" >281</td><td class="cr" axis="number" headers="Col7" x:num="304.638000488281" >305</td><td class="cr" axis="number" headers="Col8" x:num="258.788000488281" >259</td><td class="cr" axis="number" headers="Col9" x:num="45.85" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Utah</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="279.156123426792" >279</td><td class="cr" axis="number" headers="Col7" x:num="303.661993408203" >304</td><td class="cr" axis="number" headers="Col8" x:num="257.520007324219" >258</td><td class="cr" axis="number" headers="Col9" x:num="46.141986083984" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Vermont</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="287.356487616841" >287</td><td class="cr" axis="number" headers="Col7" x:num="311.329998779297" >311</td><td class="cr" axis="number" headers="Col8" x:num="264.929998779297" >265</td><td class="cr" axis="number" headers="Col9" x:num="46.4" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Virginia</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="284.371628221298" >284</td><td class="cr" axis="number" headers="Col7" x:num="307.621997070313" >308</td><td class="cr" axis="number" headers="Col8" x:num="261.654010009766" >262</td><td class="cr" axis="number" headers="Col9" x:num="45.967987060547" >46</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Washington</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="285.052229728136" >285</td><td class="cr" axis="number" headers="Col7" x:num="309.829998779297" >310</td><td class="cr" axis="number" headers="Col8" x:num="262.243994140625" >262</td><td class="cr" axis="number" headers="Col9" x:num="47.586004638672" >48</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">West Virginia</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="269.099492803301" >269</td><td class="cr" axis="number" headers="Col7" x:num="291.490002441406" >291</td><td class="cr" axis="number" headers="Col8" x:num="248.717999267578" >249</td><td class="cr" axis="number" headers="Col9" x:num="42.772003173828" >43</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Wisconsin</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="284.541556582959" >285</td><td class="cr" axis="number" headers="Col7" x:num="308.166003417969" >308</td><td class="cr" axis="number" headers="Col8" x:num="263.334008789063" >263</td><td class="cr" axis="number" headers="Col9" x:num="44.831994628906" >45</td>
+		</tr><tr >
+			<th class="cr" axis="string" headers="Col0">N/A</th><td class="cl" axis="string" headers="Col1" style="background-color: rgb(189, 212, 229);">Wyoming</td><td class="cl" axis="string" headers="Col2">?</td><td class="cr" axis="string" headers="Col3">?</td><td class="cr" axis="string" headers="Col4">?</td><td class="cr" axis="string" headers="Col5">?</td><td class="cr" axis="number" headers="Col6" x:num="282.100609598155" >282</td><td class="cr" axis="number" headers="Col7" x:num="302.602001953125" >303</td><td class="cr" axis="number" headers="Col8" x:num="263.4" >263</td><td class="cr" axis="number" headers="Col9" x:num="39.202001953125" >39</td>
+		</tr></tbody><tfoot>
+		<tr>
+			<td class="SCFtrCls" align="left" colspan="10">NOTE: National public is included for reference only and is not included in sorting the jurisdictions. Score differences are calculated based on differences between unrounded average scale scores.</td>
+		</tr><tr>
+			<td class="SCFtrCls" align="left" colspan="10">SOURCE: U.S. Department of Education, Institute of Education Sciences, National Center for Education Statistics, National Assessment of Educational Progress (NAEP), 2005 Mathematics Assessment.</td>
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>
