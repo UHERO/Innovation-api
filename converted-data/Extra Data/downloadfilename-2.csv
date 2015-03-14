@@ -1,0 +1,49 @@
+,,,,,,,,,,,,,,,
+,FINAID TABLE 0 ,,,,,,,,,,,,,,
+,STUDENT FINANCIAL ASSISTANCE - UNMET NEED REPORT ,,,,,,,,,,,,,,
+,ACADEMIC YEAR 2012-2013 ,,,,,,,,,,,,,,
+,GRADUATES ,,,,,,,,,,,,,,
+,FULL & PART-TIME STUDENTS ,,,,,,,,,,,,,,
+,MULTIPLE STUDENT COUNT ,,,,,,,,,,,,,,
+,"$ IN 1,000 ",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,  ,  ,  ,  ,  ,  ,  ,  ,LOANS AWARDED 5  ,,UNSUBSIDIZED DIRECT COST 9  ,,"UNMET NEED, TOTAL COST 10  ",
+,,NO OF STU-DENTS ,"DIRECT COST
+[A] 4  ","TOTAL COST
+[B] 5  ","TOTAL EFC
+[C] 5  ","AID FROM PRIVATE SOURCES
+[D] 5  ","GROSS NEED
+[E = B-C-D] 5  ","GRANT AID PRO-VIDED
+[F] 6  ","FEDERAL WORK STUDY
+[G] 6  ","SUBSI-DIZED / NEED
+[H] 7  ","UNSUBSI-DIZED /
+NON-NEED
+[I] 8  ","CALC-1
+
+[J = A-F] ","CALC-2
+
+[K = A-F-G-H] ","CALC-3
+
+[L = B-C-D-F] ","CALC-4
+
+[M = B-C-D-F-G-H] "
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,UH TOTAL,"2,400","39,056","73,370","10,793","10,199","52,378","6,280",72,632,"38,524","32,775","32,071","46,098","45,393"
+,,,,,,,,,,,,,,,
+,   UH M?NOA,"2,225","36,636","68,405","10,299","9,986","48,120","6,005",72,594,"35,251","30,632","29,965","42,115","41,449"
+,,,,,,,,,,,,,,,
+,   UH HILO,175,"2,419","4,965",494,213,"4,258",276,,38,"3,273","2,144","2,106","3,982","3,944"
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Footnotes:,,,,,,,,,,,,,,
+," 1/ For system total and community colleges subtotal only, 'Multiple Student Count' includes each student once at every campus from which the student received financial aid during the academic year; whereas 'Distinct Student Count' unduplicates students in the systems and may not equal the sum of the individual campuses.",,,,,,,,,,,,,,
+, 2/ Student counts include FAFSA applicants whose costs of education and total adjusted credits are greater than zero for the academic year at the institution at which the students applied for financial aid and enrolled.,,,,,,,,,,,,,,
+, 3/ FT/PT Status definition is set to Financial Aid definition and numbers will not tie exactly to data shown in the MAPS Enrollment reports.,,,,,,,,,,,,,,
+," 4/ Direct Cost includes tuition, fees, books and supplies. SOURCE: MRT_FINAID_BUDGET_COMPONENT",,,,,,,,,,,,,,
+," 5/ Total Cost includes tuition, fees, room & board (anywhere), books, supplies, computers, transportation, personal expenses, and other educational costs. Total EFC is an estimate of total family contribution. Resources is the total amount of outside resources used in the applicant's need calculation. Gross Need is the amount needed minus total family contributions and outside resources. SOURCE: MRT_APPLICANT_NEED",,,,,,,,,,,,,,
+," 6/ Grant Aid Provided includes scholarships, grants, tuition waivers, and stipends. Federal Work Study is a federally funded program that allows colleges to create campus based employment. Loans Awarded is money that is borrowed from a lender for education expenses. SOURCE: MRT_AWARD_BY_PERSON",,,,,,,,,,,,,,
+, 7/ Subsidized Loans are available to students that demonstrate financial need.,,,,,,,,,,,,,,
+, 8/ Unsubsidized Loans are available to students; there is no requirement to demonstrate financial need.,,,,,,,,,,,,,,
+," 9/ Unsubsidized Direct Cost Calc - 1 is the direct cost amount that is not covered by grant aid provided.<br>Unsubsidized Direct Cost Calc - 2 is the direct cost amount that is not covered by grant aid provided, federal work study, and subsidized/need loans.",,,,,,,,,,,,,,
+," 10/ Unmet Need, Total Cost Calc - 3 is the total cost amount that is not covered by total expected family contributions, resources, and grant aid provided.<br>Unmet Need, Total Cost Calc - 4 is the total cost amount that is not covered by total expected family contributions, resources, grant aid provided, federal work study, and subsidized/need loans.",,,,,,,,,,,,,,

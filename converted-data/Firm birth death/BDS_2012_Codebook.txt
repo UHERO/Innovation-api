@@ -1,0 +1,125 @@
+BDS  VARIABLE  CODEBOOK    (2012 Release) 
+ 
+Variable name Type Length year2 num 8 sic1 char 2 size char 15 fsize char 15 age4  char 16 fage4 char 16 firms num 8 estabs num 8 emp num 8 denom num 8 estabs_entry num 8 estabs_entry_rate num 8 estabs_exit num 8 estabs_exit_rate num 8 job_creation num 8 job_creation_births num 8 job_creation_continuers num 8 job_creation_rate_births num 8 Job_creation_rate num 8 job_destruction_deaths num 8 job_destruction_continuers num 8 job_destruction_rate_deaths num 8 job_destruction_rate num 8 net_job_creation num 8 net_job_creation_rate num 8 reallocation_rate num 8 d_flag num 8 firmdeath_firms num 8 firmdeath_estabs num 8 firmdeath_emp num 8 metro char 1 msa num 8  
+ 
+year2 
+ 	Values:  1975-present    
+ 
+sic1 Description: record year  Values:  07,10,15,20,40,50,52,60,70  Description: Broad industry categories.   	 07 -  agricultural services, forestry, fishing   	 10 -  mining   	 15 -  construction   	 20 -  manufacturing   	 40 -  transportation and public utilities   	 50 -  wholesale trade   	 52 -  retail trade   	 60 -  finance, insurance, real estate (FIRE)  
+ 
+  
+size  	 70 -  services  	Values:  	a) 1 to 4, b) 5 to 9,c) 10 to 19,d) 20 to 49,e) 50 to 99, f) 100 to 249,                                             g) 250 to 499, h) 500 to 999, i) 1000+ 
+Description: 	Establishment size.  A categorical variable defined as the average of the establishment’s year t-1 and year t employment  
+ 
+        fsize 
+ 	Values:  	a) 1 to 4, b) 5 to 9,c) 10 to 19,d) 20 to 49,e) 50 to 99, f) 100 to 249,  g) 250 to 499,  
+                                           h) 500 to 999, i) 1000 to 2499,  j) 2500 to 4999, k) 5000 to 9999, l) 10000+ 
+Description: 	Firm size.  A categorical variable defined as the average of the firm’s year t-1 and year t employment. 
+ 
+ 
+age4 
+ 	Values:  	Left Censored, 0, 1, 2, 3, 4, 5, 6-10, 11-15, 16-20, 21-25, 26+ 
+ 	Description: 	This is an employment based measure of establishment age. An estab born before 1977 is  of unknown age and is assigned an age of “Left Censored”.  One born during or after  1977 is assigned an age of zero in the first year it reports positive employment, and ages each year thereafter regardless of employment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+fage4 
+ 	Values:  Left Censored, 0, 1, 2, 3, 4, 5, 6-10, 11-15, 16-20, 21-25, 26+  	Description: This is an employment based measure of firm age. A firm born before 1977 is of  unknown age and is assigned a firm age of “Left Censored”.  A firm born during or after 1977 is assigned a firm age as follows:  	 	 1.  One or more pre-existing establishments with prior employment -  the firm will be born with a non-zero age based on the earliest year any establishment reported employment.  	 	 2.  One or more pre-existing establishments with no prior employment in any  establishment -  the firm is born with no firm age.  The firm will be age zero in the first year any establishment reports employment.  	 	 3.  One or more newly founded establishments with employment - the firm will be born  with age of zero.  	 	 4.  One or more newly founded establishments with no employment in any   	 	 
+  
+ 
+ firms Establishment - the firm will be born with no firm age.  The firm will be age zero in the  first year any establishment reports employment.  	Values:    	Description: 
+  
+ 
+estabs A simple count of the number of firms in the cell.  For state level tables, a firm with establishments in multiple states be counted multiple times, once in each state, irrespective of the portion of the firm residing in that state.  	Values:    	Description: 
+  
+ 
+emp A simple count of the number of establishments in the cell.  	Values:    	Description: 
+ 
+ 
+ denom total sum of March 12 employment in the cell.  	Values:    	Description: Davis-Haltiwanger-Schuh (DHS) denominator.  For time t, denom is the average of   	 	 employment for  times t and t-1.  This variable attempts to prevent transitory shocks from   	 	 
+ 
+ 
+ estabs_entry creating a bias to the relationship between net growth from t-1 to t and size.  	Values:    	Description: 
+  
+ 
+estabs_entry_rate A count of establishments born within the cell during the last 12 months.  	Values:    	Description: 100 * (estabs_entry at time t  divided by the average of estabs at t and t-1).   
+ 
+ 
+ 
+estabs_exit 
+ 	Values:    	Description: 
+ 
+  
+estabs_exit_rate A count of establishments exiting from within the cell during the last 12 months.  	Values:    	Description: 
+ 
+  
+job_creation 100 * (estabs_exit at time t  divided by the average of estabs at t and t-1).  	Values:    	Description: Count of all jobs created within the cell over the last 12 months.   
+ 
+job_creation_births 
+ 	Values:  	 
+ 	Description: 	Count of jobs created within the cell by establishment births over the last 12 months. 
+  
+ 
+job_creation_continuers 
+ 	Values:  	 
+ 	Description: 	Count of jobs created in the cell by continuing establishments over the last 12 months. 
+  
+ 
+job_creation_rate_births 
+ 	Values:  	  	Description: 
+  
+ 
+job_creation_rate 100 * (job_creation_births / denom)  	Values:    	Description: 
+  
+job_destruction 100 * (job_creation / denom)  	Values:    	Description: Count of all jobs destroyed within the cell over the last 12 months.   
+ 
+job_destruction_deaths 
+ 	Values:  	 
+ 	Description: 	Count of jobs destroyed by establishment exit over the last 12 months. 
+  
+ 
+job_destruction_continuers 
+ 	Values:  	 
+ 	Description: 	Count of jobs destroyed at continuing establishments over the last 12 months. 
+  
+ 
+job_destruction_rate_deaths 
+ 	Values:  	 
+ 	Description: 	100 * (job_destruction_deaths / denom) 
+ 
+ 
+ 
+ 
+job_destruction_rate 
+ 	Values:  	 
+ 	Description: 	100 * (job_destruction divided / denom) 
+  
+ 
+net_job_creation_rate 
+ 	Values:  	  	Description: 
+  
+ 
+reallocation_rate job_creation_rate  - job_destruction_rate  	Values:    	Description: 
+  
+ 
+d_flag job_creation_rate + job_destruction_rate - abs(net_job_creation_rate)  	Values:  0,1 	  	Description: 
+ 
+ 
+firmdeath_firms Disclosure flag.  A value of 1 indicates that values have been suppressed to prevent  disclosure of sensitive data.   	Values:   	 Description: 
+ 
+firmdeath_estabs Count of firms that have exited in their entirety during the period.  All  establishments owned by the firm must exit to be considered a firm death.  This definition of firm death is narrow and strictly applied, so that a firm with 100 establishments would not qualify as a firm death if 99 exited while 1 continued under different ownership.  	Values:   	 Description: 
+ 
+ 
+firmdeath_emp Count of establishments associated with firm deaths.  	Values:   	  	Description: 
+ 
+ 
+metro Count of employment associated with firm deaths.  	Values:  M,N 	 	 Description: 
+ 
+ 
+msa Establishments located in Metropolitan Statistical Areas are in cells designated with “M”, while those in non-metropolitan areas are aggregated into cells designated with “N”.  
+Rhode Island and Washington, DC are entirely metropolitan.  	Values:   	 Description: Numeric code for metropolitan statistical areas as established by Office of Management and Budget (OMB), version 2009.  
