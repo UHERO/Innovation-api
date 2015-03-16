@@ -1,13 +1,4 @@
-National Center for Education Statistics (NCES),,,,,,
-Institute of Education Sciences (IES),,,,,,
-National Assessment of Educational Progress (NAEP),,,,,,
-This report was generated using the NAEP State Comparisons Tool.http://nces.ed.gov/nationsreportcard/statecomparisons/,,,,,,
-"Average Mathematics scale score sorted by all students, grade 4 public schools: By jurisdiction",,,,,,
-Jurisdiction,All students,All students,All students,All students,All students,All students
-,,,,,,
-,,,,,,
-,2003,2005,2007,2009,2011,2013
-,Scale Score,Scale Score,Scale Score,Scale Score,Scale Score,Scale Score
+Year,2003,2005,2007,2009,2011,2013
 National public,233.9528024,237.101845,239.064293,239.0933145,240.111883,241.1801913
 Alabama,223.3446426,225.0712362,228.520018,227.9626504,231.286019,232.8613325
 Alaska,232.9916543,235.5107055,237.2738932,237.2122843,236.359658,236.1220044
@@ -59,5 +50,3 @@ Washington,238.2928395,241.6846745,242.542232,242.2570912,243.1828847,246.288338
 West Virginia,230.7677485,230.8432679,236.3378058,232.9831445,234.6558068,237.4406327
 Wisconsin,236.755414,240.5685819,244.1812142,243.5852535,244.6918655,244.7062916
 Wyoming,241.0857006,242.9559138,243.8669151,242.0091957,243.874435,246.5224009
-NOTE: National public is included for reference only and is not included in sorting the jurisdictions. Score differences are calculated based on differences between unrounded average scale scores.,,,,,,
-"SOURCE: U.S. Department of Education, Institute of Education Sciences, National Center for Education Statistics, National Assessment of Educational Progress (NAEP), 2003 Mathematics Assessment.",,,,,,
