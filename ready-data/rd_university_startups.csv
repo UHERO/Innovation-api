@@ -403,9 +403,6 @@
 95165,2013,Stanford Univ.,CA,9
 95152,2013,The Salk Inst. for Biological Studies,CA,0
 95188,2013,Univ. of California System,CA,66
-95072,1998,Hospital for Sick Children Research,CANADA,3
-95072,1999,Hospital for Sick Children Research,CANADA,2
-95072,2000,Hospital for Sick Children Research,CANADA,3
 95193,1991,Univ. of CN,CN,
 95282,1991,Yale University,CN,
 95193,1992,Univ. of CN,CN,
@@ -3229,7 +3226,6 @@
 20100282,2012,South Dakota State University,SD,0
 20000253,2012,Univ. of South Dakota,SD,0
 20100282,2013,South Dakota State University,SD,0
-[ID],Year,Institution,state,St-Ups Formed
 95164,1991,St. Jude Children's Research Hospital,TN,
 95268,1991,Vanderbilt University,TN,
 95164,1992,St. Jude Children's Research Hospital,TN,

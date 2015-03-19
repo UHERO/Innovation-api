@@ -403,9 +403,6 @@
 95165,2013,Stanford Univ.,CA,123,"$86,967,392"
 95152,2013,The Salk Inst. for Biological Studies,CA,18,"$2,993,719"
 95188,2013,Univ. of California System,CA,261,"$104,807,562"
-95072,1998,Hospital for Sick Children Research,CANADA,12,"$323,970"
-95072,1999,Hospital for Sick Children Research,CANADA,24,"$474,492"
-95072,2000,Hospital for Sick Children Research,CANADA,28,"$600,150"
 95193,1991,Univ. of CN,CN,7,"$201,000"
 95282,1991,Yale University,CN,15,"$761,000"
 95193,1992,Univ. of CN,CN,5,"$224,000"
@@ -3229,7 +3226,6 @@
 20100282,2012,South Dakota State University,SD,5,"$3,616,255"
 20000253,2012,Univ. of South Dakota,SD,0,"$52,487"
 20100282,2013,South Dakota State University,SD,8,"$1,379,853"
-[ID],Year,Institution,state,Tot Lic/Opt Exe,Gross Lic Inc
 95164,1991,St. Jude Children's Research Hospital,TN,3,"$8,294"
 95268,1991,Vanderbilt University,TN,3,"$118,300"
 95164,1992,St. Jude Children's Research Hospital,TN,5,"$36,191"
