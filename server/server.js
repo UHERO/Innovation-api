@@ -11,17 +11,18 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
-app.get('/:subject/:name');
+// app.get('/:subject/:name');
 
-app.get('/economics/:name',function(req,res){
+app.get('/:subject/:name',function(req,res){
 
 
-  var filename = __dirname + '/data_sets/economics/' + req.params.name + '.csv';
-  console.log(filename);
+  var filename = __dirname + '/data_sets/' + req.params.subject +'/' + req.params.name + '.csv';
+  console.log('FILENAME',filename);
 
   var readStream = fs.createReadStream(filename);
 
-  readStream.on('open', function () {
+  readStream.on('open', function (err) {
+    
     res.set({
       'Content-Type': 'text/csv',
       'Access-Control-Allow-Origin': '*',
@@ -31,8 +32,8 @@ app.get('/economics/:name',function(req,res){
     readStream.pipe(res);
   });
 
-  readStream.on('end', function () {
-    console.log(filename + ' served to ' + req.connection.remoteAddress);
+  readStream.on('end', function (err) {
+    // console.log(filename + ' served to ' + req.connection.remoteAddress);
   });
 
   readStream.on('err', function (err) {
