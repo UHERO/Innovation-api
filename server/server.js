@@ -1,7 +1,10 @@
 // Requires
 var express = require('express');
 var bodyParser = require('body-parser');
-var Mongoose = require('mongoose');
+// var Mongoose = require('mongoose');
+var fs = require('fs');
+var http = require('http');
+
 
 var app = express();
 
@@ -9,33 +12,38 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
-app.get('/', function (req, res) {
-  res.json({hello: "world"});
-});
 
 app.get('/economics/:name',function(req,res){
-  var options = {
-    root: __dirname + '/',
-    dotfiles: 'allow',
-    headers: {
-        'x-timestamp': Date.now(),
-        'x-sent': true
-    }
-  };
 
-   var fileName = req.params.name;
-  res.sendFile(fileName, options, function (err) {
-    if (err) {
-      console.log(err);
-      res.status(err.status).end();
-    }
-    else {
-      console.log('Sent:', fileName);
-    }
+
+  var filename = __dirname + '/data_sets/economics/' + req.params.name + '.csv';
+  console.log(filename);
+
+  var readStream = fs.createReadStream(filename);
+
+  readStream.on('open', function () {
+    res.set({
+      'Content-Type': 'text/csv',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET',
+      'Access-Control-Allow-Headers': 'X-Requested-With'
+    });
+    readStream.pipe(res);
+  });
+
+  readStream.on('end', function () {
+    console.log(filename + ' served to ');
+  });
+
+  readStream.on('err', function (err) {
+    res.end(err);
   });
   
 });
 
+app.get('/', function (req, res) {
+  res.json({hello: "world"});
+});
 // Server
 var server = app.listen(4567, function () {
   
