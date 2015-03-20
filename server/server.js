@@ -5,13 +5,13 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var http = require('http');
 
-
 var app = express();
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
+app.get('/:subject/:name');
 
 app.get('/economics/:name',function(req,res){
 
@@ -32,7 +32,7 @@ app.get('/economics/:name',function(req,res){
   });
 
   readStream.on('end', function () {
-    console.log(filename + ' served to ');
+    console.log(filename + ' served to ' + req.connection.remoteAddress);
   });
 
   readStream.on('err', function (err) {
