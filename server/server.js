@@ -9,15 +9,6 @@ var app = express();
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// respond with json if not 404 (not found) error pops up
-app.use(function(req, res, next){
-  res.status(404);
-  if (req.accepts('json')) {
-    res.send({ error: 'Not found' });
-    return;
-  }
-});
-
 // Routes
 app.get('/:subject/:name',function(req,res){
 
@@ -37,7 +28,7 @@ app.get('/:subject/:name',function(req,res){
   });
 
   readStream.on('end', function () {
-    // console.log(filename + ' served to ' + req.connection.remoteAddress);
+    console.log(filename + ' served to ' + req.connection.remoteAddress);
   });
 
   readStream.on('err', function (err) {
@@ -49,6 +40,15 @@ app.get('/:subject/:name',function(req,res){
 app.get('/', function (req, res) {
   res.json({hello: "world"});
 });
+
+// respond with json if not 404 (not found) error pops up
+// app.use(function(req, res, next){
+//   res.status(404);
+//   if (req.accepts('json')) {
+//     res.send({ error: 'Not found' });
+//     return;
+//   }
+// });
 
 // Server
 var server = app.listen(4567, function () {
