@@ -25,10 +25,7 @@ app.get('/:subject/:name',function(req,res){
   // console.log('FILENAME: ',filename);
   var readStream = fs.createReadStream(filename);
 
-  readStream.on('open', function (err) {
-    if (err) {
-      console.log('YOU FUCKED UP',err);
-    }
+  readStream.on('open', function () {
 
     res.set({
       'Content-Type': 'text/csv',
@@ -39,8 +36,7 @@ app.get('/:subject/:name',function(req,res){
     readStream.pipe(res);
   });
 
-  readStream.on('end', function (err) {
-    console.log('asd',err);
+  readStream.on('end', function () {
     // console.log(filename + ' served to ' + req.connection.remoteAddress);
   });
 
