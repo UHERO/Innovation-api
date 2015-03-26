@@ -1,0 +1,49 @@
+Note:,"The data presented in this report were created to calculate the Strive HI index. Due to situations specific to the calculation of an index, some of the data points may not match published data for similar measures. Fuller descriptions of the Strive HI data collection business rules are below. For this reason, please use caution when comparing these data to other data sets. 
+
+All numbers are rounded to the nearest integer."
+School ID,This is the identifier the numeric identifier that the DOE uses to identify schools.  Other published data may have this number
+Year,The year to which these accountability data refer: 2013-2014 SY
+School Name,The common school name
+School Type for Strive HI,"This lists whether the school was considered an elementary, middle or high school for the purposes of the Strive HI system"
+Title I,Indicating whether the school was a Title I school in 2013-2014.
+Complex Area,Complex area that the school belongs to
+Strive HI Step,"One of five levels that schools can be classified into: Recognition, Continuous Improvement, Focus, Priority and Classification Not Determined"
+Final Index Score,"The school's index score, out of 400 points"
+Math Proficiency (%),"Percentage of students enrolled the full school year who scored proficient or higher on the Hawaii State Assessment in Math.  For some schools this value is adjusted for a low participation penalty.  When fewer than 30 students were tested, data were pooled from multiple years to achieve an appropriate n-size."
+Math Participation Penalty?,"Indicator that the school did not test 95% of its students, and that students were added to the school's total to reach 95% test participation"
+Math Proficiency - Pooled Data?,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most three years of data were used.
+Reading Proficiency (%),"Percentage of students enrolled the full school year who scored proficient or higher on the Hawaii State Assessment in Reading.  For some schools this value is adjusted for a low participation penalty. When fewer than 30 students were tested, data were pooled from multiple years to achieve an appropriate n-size."
+Reading Participation Penalty?,"Indicator that the school did not test 95% of its students, and that students were added to the school's total to reach 95% test participation"
+Reading Proficiency - Pooled Data?,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most three years of data were used.
+Science Proficiency (%),Percentage of students enrolled the full school year who scored proficient or higher on the Hawaii State Assessment in Science.  For some schools this value is adjusted for a low participation penalty.
+Science Participation Penalty?,"Indicator that the school did not test 95% of its students, and that students were added to the school's total to reach 95% test participation"
+Science Proficiency - Pooled Data?,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most three years of data were used.
+Math Median SGP,"Median student growth percentile in math.  When fewer than 30 students were tested, data were pooled from multiple years to achieve an appropriate n-size."
+Math SGP - Used Pooled Data,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most three years of data were used.
+Reading Median SGP,"Median student growth percentile in reading. When fewer than 30 students were tested, data were pooled from multiple years to achieve an appropriate n-size."
+Reading SGP - Pooled Data?,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most three years of data were used.
+Chronic Absenteeism (%),The percentage of students enrolled for the full school year that missed 15 or more days of school.  Kindergarten students are not included in this calculation
+Pct. Scoring at or Above 15 on 8th Grade ACT (%),The percentage of 8th grade students that scored at or above a 15 on the composite score of the EXPLORE version of the ACT.
+8th Grade ACT Participation Penalty?,"Indicator that the school did not test 95% of its students on the ACT EXPLORE, and that students were added to the school's total to reach 95% test participation"
+Pct. Scoring at or above 19 on 11th grade ACT (%),The percentage of 11th grade students that scored at or above a 19 on the composite score of the ACT
+11th Grade ACT Participation Penalty?,"Indicator that the school did not test 95% of its students on the ACT, and that students were added to the school's total to reach 95% test participation"
+Graduation Rate Used for 2014 HS Readiness Calculation (%),2012 On-time graduation rate.  If a minimum of 40 students was not part of the calculation then data may have been pooled to achieve that minimum.  Two years of data were pooled at most.
+Graduation Rate - Pooled Data?,Yes - indicates that more than one year of data was used in order to create more reliable measures.  At most two years of data were used.
+Class of 2012 16-month College Enrollment Rate (%),Proportion of high school completers that enrolled in college within 16 months after high school.  The Class of 2011 is the most recent data available given the 16 month lag.
+2013-14 Non High-Needs Proficiency (%),"Combined 2012-13 math and reading percentage of non high-needs students enrolled the full school year who scored proficient or above.  No minimum sample size for this report and Recognition selection, but if fewer than 20 students in math or reading then this measure was not used for achievement gap index calculation or Focus selection."
+2013-14 High-Needs Proficiency (%),"Combined 2012-13 math and reading percentage of high-needs students enrolled the full school year who scored proficient or above.  No minimum sample size for this report and Recognition selection, but if fewer than 20 students in math or reading then this measure was not used for achievement gap index calculation or Focus selection."
+Current Gap Rate (%),Achievement gap for 2012-13 (accounting for total minimum n-size of 20 - math and 20- reading)
+2011-12 Non High-Needs Proficiency (%),"Combined 2010-11 math and reading percentage of non high-needs students enrolled the full school year who scored proficient or above.  No minimum sample size for this report and Recognition selection, but if fewer than 20 students in math or reading then this measure was not used for achievement gap index calculation or Focus selection."
+2011-12 High-Needs Proficiency (%),"Combined 2010-11 math and reading percentage of high-needs students enrolled the full school year who scored proficient or above.  No minimum sample size for this report and Recognition selection, but if fewer than 20 students in math or reading then this measure was not used for achievement gap index calculation or Focus selection."
+2011-12 Gap Rate (%),Achievement gap for 2 years prior (accounting for total minimum n-size of 20 - math and 20 - reading)
+"Two-Year Gap Reduction Rate (%) 
+(negative numbers indicate gap has grown)",Reduction in achievement gap rate from 2011 to 2013: (2011 Gap Rate - 2013 Gap Rate)/2011 Gap Rate
+Used Achievement Gap Exemption in 2013-14,Yes  if school's High-Needs combined math and reading proficiency was greater than the target of 68% and the school was exempted from achievement gap as a result.  Yes indicates that because of the high performance of the school's high-needs students that it was exempted from gap rate in the Index calculation because it would receive a higher index score without achievement gap.
+2011-12 All Students Graduation Rate (%),"2012 on-time graduation rate, unadjusted for small sample size.  "
+2012-13 High-Needs Graduation Rate (%),"2013 on-time graduation rate for high-needs students, unadjusted for small sample size.  "
+2011-12 High-Needs Graduation Rate (%),"2012 on-time graduation rate for high-needs students, unadjusted for small sample size.  Used to calculate graduation gaps between high-needs and non high-needs students."
+2012-13 Non High-Needs Graduation Rate (%),"2013 on-time graduation rate for non high-needs students, unadjusted for small sample size.  "
+2011-12 Non High-Needs Graduation Rate (%),"2012 on-time graduation rate for non high-needs students, unadjusted for small sample size.  Used to calculate graduation gaps between high-needs and non high-needs students."
+2013 Graduation Rate Gap (%),Gap between non high-needs graduation rate and high-needs graduation rate: (NHNGradRate - HNGradRate) / NHNGradRate
+Automatic Classification Reason,"Indicates whether a school was ""triggered"" into a category for a specific reason.  The field lists the reason."
+**Data Are Suppressed for Student Privacy,"Rows with ""--"" indicate that data have been suppressed to ensure student privacy. "
