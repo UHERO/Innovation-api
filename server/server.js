@@ -15,12 +15,12 @@ app.get('/:subject/:name',function(req,res){
   var filename = __dirname + '/data_sets/' + req.params.subject +'/' + req.params.name + '.csv';
   // console.log('FILENAME: ',filename);
   var readStream = fs.createReadStream(filename);
-  
+
   readStream.on('error', function (err) {
     res.status(404)
     .send({ error: 'Not found' });
   });
-  
+
   readStream.on('open', function () {
     res.set({
       'Content-Type': 'text/csv',
@@ -44,7 +44,7 @@ app.get('/', function (req, res) {
 
 // Server
 var server = app.listen(4567, function () {
-  
+
   var host = server.address().address;
   var port = server.address().port;
 
