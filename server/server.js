@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var http = require('http');
 var app = express();
+var port = process.env.PORT || 3000;
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -43,10 +44,6 @@ app.get('/', function (req, res) {
 });
 
 // Server
-var server = app.listen(4567, function () {
+app.listen(port);
 
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log('UHero API listening at http://%s:%s', host, port);
-});
+console.log('UHERO Innovation API running at http://127.0.0.1:' + port + '/');
